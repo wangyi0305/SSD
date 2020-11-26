@@ -117,7 +117,7 @@ public class Catfish extends LivingBeing{
 	 * @return <code>true</code> if dead. <code>false</code>, otherwise.
 	 */
     public boolean isDead() {
-    	if(deadOrAlive==DEAD) {
+    	if(deadOrAlive.equals(DEAD)) {
 			return true;
 		}
     	else {
